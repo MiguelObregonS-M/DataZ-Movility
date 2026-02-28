@@ -1,0 +1,55 @@
+# --- Archivos del sistema ---
+.DS_Store
+Thumbs.db
+
+# --- Entorno virtual ---
+venv/
+env/
+.venv/
+
+# --- Archivos de Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+
+# --- Datos ---
+data/raw/*
+data/processed/*
+data/external/*
+
+# Mantener un archivo vacío para que las carpetas existan
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+
+# --- Salidas del proyecto ---
+outputs/graficos/*
+outputs/informes/*
+
+!outputs/graficos/.gitkeep
+!outputs/informes/.gitkeep
+
+# --- Dashboard ---
+dashboard/powerbi/*.pbix
+dashboard/tableau/*.twb
+dashboard/tableau/*.twbx
+
+# --- Configuración ---
+*.env
+.env.*
+
+# --- Archivos temporales ---
+*.tmp
+*.log
+
+# --- Librerías instaladas ---
+site-packages/
+
+# --- Archivos de editor ---
+.vscode/
+.idea/
+*.swp

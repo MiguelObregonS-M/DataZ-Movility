@@ -1,0 +1,36 @@
+movilidad-zaragoza/
+│
+├── data/
+│   ├── raw/                # Datos originales descargados (sin modificar)
+│   ├── processed/          # Datos limpios y transformados
+│   └── external/           # Datos auxiliares (mapas, shapes, etc.)
+│
+├── notebooks/
+│   ├── 01_exploracion.ipynb
+│   ├── 02_limpieza.ipynb
+│   ├── 03_analisis.ipynb
+│   └── 04_visualizaciones.ipynb
+│
+├── src/
+│   ├── data_loading.py     # Funciones para cargar datos
+│   ├── cleaning.py         # Funciones de limpieza
+│   ├── analysis.py         # Funciones de análisis
+│   ├── visualization.py    # Funciones de gráficos
+│   └── utils.py            # Funciones auxiliares
+│
+├── dashboard/
+│   ├── powerbi/            # Archivo PBIX del dashboard
+│   └── tableau/            # Archivo TWB/TWBX si usas Tableau
+│
+├── docs/
+│   ├── proyecto.md         # Documento explicativo del proyecto
+│   ├── datasets.md         # Descripción de datasets utilizados
+│   ├── analisis.md         # Explicación del análisis realizado
+│   └── conclusiones.md     # Hallazgos finales
+│
+├── outputs/
+│   ├── graficos/           # Gráficos exportados
+│   └── informes/           # Informe final en PDF o Markdown
+│
+├── README.md               # Presentación del proyecto
+└── requirements.txt        # Librerías necesarias (Python)

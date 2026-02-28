@@ -1,0 +1,20 @@
+# Librerías principales de análisis
+pandas
+numpy
+geopandas
+
+# Visualización
+matplotlib
+seaborn
+plotly
+
+# Mapas y análisis geoespacial
+folium
+
+# Notebooks
+jupyter
+ipykernel
+
+# Utilidades
+python-dotenv
+requests
