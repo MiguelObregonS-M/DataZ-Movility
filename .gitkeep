@@ -1,9 +1,0 @@
-data/raw/.gitkeep
-data/processed/.gitkeep
-data/external/.gitkeep
-
-outputs/graficos/.gitkeep
-outputs/informes/.gitkeep
-
-dashboard/powerbi/.gitkeep
-dashboard/tableau/.gitkeep
