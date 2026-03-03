@@ -9,8 +9,9 @@ __pycache__/
 *.log
 *.tmp
 
-# Snapshots RAW (no se suben por tamaño y porque no aportan valor)
+# Snapshots RAW y PROCESSED (no se suben por tamaño y porque no aportan valor)
 data/raw/hourly_snapshots/
+data/processed/hourly_clean/
 
 # Archivos de bloqueo de Power BI
 *.pbix.lock
