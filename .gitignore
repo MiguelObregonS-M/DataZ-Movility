@@ -1,55 +1,23 @@
-# --- Archivos del sistema ---
+# Entorno virtual
+venv/
+
+# Cachés de Python
+__pycache__/
+*.pyc
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Snapshots RAW (no se suben por tamaño y porque no aportan valor)
+data/raw/hourly_snapshots/
+
+# Archivos de bloqueo de Power BI
+*.pbix.lock
+
+# Archivos del sistema
 .DS_Store
 Thumbs.db
 
-# --- Entorno virtual ---
-venv/
-env/
-.venv/
-
-# --- Archivos de Python ---
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# --- Jupyter Notebooks ---
-.ipynb_checkpoints/
-
-# --- Datos ---
-data/raw/*
-data/processed/*
-data/external/*
-
-# Mantener un archivo vacío para que las carpetas existan
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-!data/external/.gitkeep
-
-# --- Salidas del proyecto ---
-outputs/graficos/*
-outputs/informes/*
-
-!outputs/graficos/.gitkeep
-!outputs/informes/.gitkeep
-
-# --- Dashboard ---
-dashboard/powerbi/*.pbix
-dashboard/tableau/*.twb
-dashboard/tableau/*.twbx
-
-# --- Configuración ---
-*.env
-.env.*
-
-# --- Archivos temporales ---
-*.tmp
-*.log
-
-# --- Librerías instaladas ---
-site-packages/
-
-# --- Archivos de editor ---
+# Configuración de VSCode (opcional)
 .vscode/
-.idea/
-*.swp
